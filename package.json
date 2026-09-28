@@ -1,0 +1,22 @@
+{
+  "name": "pollination-desk",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pollination Desk — flower shape ↔ pollinator matching with fruit-set link",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./docs/css/pollination-desk.css --minify",
+    "build:js": "node scripts/build-js.js",
+    "build:data": "node scripts/sync-data.js",
+    "build": "npm run build:data && npm run build:css && npm run build:js",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./docs/css/pollination-desk.css --watch",
+    "watch:js": "node scripts/watch-js.js",
+    "watch": "concurrently -k -n css,js -c yellow,cyan \"npm:watch:css\" \"npm:watch:js\"",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

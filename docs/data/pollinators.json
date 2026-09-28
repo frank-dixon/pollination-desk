@@ -1,0 +1,163 @@
+[
+  {
+    "id": "honey-bumble",
+    "name": "Honey bees & bumble bees",
+    "traits": {
+      "tongueLength": "short to medium (bumble often longer)",
+      "vision": "UV-blue-green sensitive; red-poor",
+      "activityWindow": "day, warmer temperatures",
+      "bodySize": "medium to large (bumble)",
+      "notes": "Strong flower-constant foragers; bumble bees can buzz-pollinate."
+    },
+    "fitsShapes": [
+      "open-bowl",
+      "composite",
+      "gullet",
+      "bell",
+      "brush",
+      "urn",
+      "spurred"
+    ]
+  },
+  {
+    "id": "solitary-bee",
+    "name": "Solitary bees",
+    "traits": {
+      "tongueLength": "species-dependent; many short\u2013medium",
+      "vision": "UV-blue-green sensitive",
+      "activityWindow": "day; often early spring specialists",
+      "bodySize": "small to medium",
+      "notes": "Includes mason, mining, and leafcutter bees; critical for orchards and urn flowers."
+    },
+    "fitsShapes": [
+      "open-bowl",
+      "lip",
+      "composite",
+      "gullet",
+      "bell",
+      "urn",
+      "spurred"
+    ]
+  },
+  {
+    "id": "butterfly",
+    "name": "Butterflies",
+    "traits": {
+      "tongueLength": "long proboscis",
+      "vision": "strong color vision including reds in many groups",
+      "activityWindow": "day, calm sunny weather",
+      "bodySize": "light; need perches",
+      "notes": "Prefer landing platforms and clustered nectar sources such as composites."
+    },
+    "fitsShapes": [
+      "composite",
+      "spurred",
+      "open-bowl"
+    ]
+  },
+  {
+    "id": "hawkmoth",
+    "name": "Hawkmoths & nocturnal moths",
+    "traits": {
+      "tongueLength": "very long",
+      "vision": "dim-light adapted; pale flowers stand out",
+      "activityWindow": "dusk and night",
+      "bodySize": "large, hovering",
+      "notes": "Match deep tubes and long spurs; sweet night scent is a common cue."
+    },
+    "fitsShapes": [
+      "tubular",
+      "spurred"
+    ]
+  },
+  {
+    "id": "hummingbird",
+    "name": "Hummingbirds",
+    "traits": {
+      "tongueLength": "long bill + tongue",
+      "vision": "excellent red sensitivity",
+      "activityWindow": "day",
+      "bodySize": "hovering vertebrate",
+      "notes": "Favor tubular red\u2013orange nectar flowers with little scent and weak landing needs."
+    },
+    "fitsShapes": [
+      "tubular",
+      "brush"
+    ]
+  },
+  {
+    "id": "syrphid",
+    "name": "Hover flies (syrphids)",
+    "traits": {
+      "tongueLength": "short",
+      "vision": "strong motion and color cues",
+      "activityWindow": "day",
+      "bodySize": "small",
+      "notes": "Important backup pollinators on open and composite blooms."
+    },
+    "fitsShapes": [
+      "open-bowl",
+      "composite",
+      "bell"
+    ]
+  },
+  {
+    "id": "carrion-fly",
+    "name": "Carrion & dung flies",
+    "traits": {
+      "tongueLength": "short",
+      "vision": "odor-dominated search",
+      "activityWindow": "day, warm odor plumes",
+      "bodySize": "small to medium",
+      "notes": "Specialist partners for deceptive trap and carrion-mimic flowers."
+    },
+    "fitsShapes": [
+      "trap-carrion"
+    ]
+  },
+  {
+    "id": "beetle",
+    "name": "Beetles",
+    "traits": {
+      "tongueLength": "short chewing mouthparts",
+      "vision": "variable; often scent-led",
+      "activityWindow": "day",
+      "bodySize": "medium to large",
+      "notes": "Ancient pollinators of bowl and brushy, pollen-rich flowers."
+    },
+    "fitsShapes": [
+      "open-bowl",
+      "brush"
+    ]
+  },
+  {
+    "id": "long-tongued-bee",
+    "name": "Long-tongued bees",
+    "traits": {
+      "tongueLength": "long",
+      "vision": "UV-blue-green sensitive",
+      "activityWindow": "day",
+      "bodySize": "medium",
+      "notes": "Reach nectar in spurs and deeper tubes that short-tongued bees miss."
+    },
+    "fitsShapes": [
+      "spurred",
+      "tubular",
+      "lip"
+    ]
+  },
+  {
+    "id": "wind",
+    "name": "Wind",
+    "traits": {
+      "tongueLength": "n/a",
+      "vision": "n/a",
+      "activityWindow": "whenever air moves during pollen shed",
+      "bodySize": "n/a",
+      "notes": "Abiotic pollen vector for reduced flowers; density and weather dominate success."
+    },
+    "fitsShapes": [
+      "wind"
+    ]
+  }
+]

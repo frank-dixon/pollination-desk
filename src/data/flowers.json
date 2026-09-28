@@ -1,0 +1,391 @@
+[
+  {
+    "id": "tubular",
+    "name": "Tubular / long corolla",
+    "simpleBlurb": "A deep tube puts nectar out of reach for short-tongued visitors and favors birds or long-tongued moths.",
+    "shapeSummary": "Elongated corolla tube with nectar at the base and often a narrow opening.",
+    "colorCues": [
+      "red",
+      "orange",
+      "deep pink",
+      "white (night)"
+    ],
+    "traits": {
+      "corollaDepth": "deep",
+      "symmetry": "radial or weakly bilateral",
+      "landingPlatform": "minimal",
+      "nectarPlacement": "base of tube",
+      "scentTiming": "day (birds) or night (hawkmoths)",
+      "rewardType": "nectar",
+      "uvGuides": "often weak for bird flowers"
+    },
+    "primaryGuilds": [
+      "hummingbird",
+      "hawkmoth"
+    ],
+    "secondaryGuilds": [
+      "long-tongued-bee"
+    ],
+    "fruitSet": "When the right long-tongued visitor threads the tube, pollen is placed precisely on the body and later stigmas. Mismatch with short-tongued insects often means visits without pollen transfer, so fruit set stays low even when flowers look busy.",
+    "examples": [
+      "cardinal flower",
+      "trumpet honeysuckle",
+      "many Nicotiana"
+    ]
+  },
+  {
+    "id": "open-bowl",
+    "name": "Open bowl / dish",
+    "simpleBlurb": "A wide, shallow flower invites many insects to land and walk across pollen-rich centers.",
+    "shapeSummary": "Broad, open corolla with exposed reproductive parts and easy landing space.",
+    "colorCues": [
+      "yellow",
+      "white",
+      "cream",
+      "pale pink"
+    ],
+    "traits": {
+      "corollaDepth": "shallow",
+      "symmetry": "radial",
+      "landingPlatform": "ample",
+      "nectarPlacement": "open or shallow cup",
+      "scentTiming": "day",
+      "rewardType": "nectar and/or pollen",
+      "uvGuides": "often strong toward the center"
+    },
+    "primaryGuilds": [
+      "honey-bumble",
+      "solitary-bee",
+      "syrphid"
+    ],
+    "secondaryGuilds": [
+      "beetle",
+      "butterfly"
+    ],
+    "fruitSet": "Generalist insect traffic can deliver plenty of pollen, which supports fruit set in self-incompatible crops when bloom overlaps with active foragers. Incomplete visits or rainy weather that grounds bees quickly cut seed and fruit numbers.",
+    "examples": [
+      "wild rose",
+      "buttercup",
+      "many Magnolia (beetle history)"
+    ]
+  },
+  {
+    "id": "brush",
+    "name": "Brush / bottlebrush",
+    "simpleBlurb": "A spray of stamens presents pollen like a brush that wipes onto fur, feathers, or large insects.",
+    "shapeSummary": "Reduced petals with a dense brush of protruding stamens and accessible nectar.",
+    "colorCues": [
+      "red",
+      "pink",
+      "cream"
+    ],
+    "traits": {
+      "corollaDepth": "shallow to moderate",
+      "symmetry": "radial brush",
+      "landingPlatform": "variable",
+      "nectarPlacement": "among or below stamens",
+      "scentTiming": "day or dusk",
+      "rewardType": "nectar and abundant pollen",
+      "uvGuides": "secondary to structural presentation"
+    },
+    "primaryGuilds": [
+      "hummingbird",
+      "honey-bumble"
+    ],
+    "secondaryGuilds": [
+      "solitary-bee"
+    ],
+    "fruitSet": "Brush blossoms transfer pollen mechanically as a visitor brushes through. Fruit set tracks how often capable visitors arrive during the receptive window; in some regions vertebrate pollinators dominate this form.",
+    "examples": [
+      "Callistemon",
+      "some Eucalyptus",
+      "bottlebrush buckeye"
+    ]
+  },
+  {
+    "id": "lip",
+    "name": "Lip / orchid-like",
+    "simpleBlurb": "A landing lip and bilateral shape steer a specialist insect into a precise pollen path.",
+    "shapeSummary": "Strong bilateral symmetry with a labellum (lip) that orients the visitor.",
+    "colorCues": [
+      "purple",
+      "pink",
+      "white",
+      "green"
+    ],
+    "traits": {
+      "corollaDepth": "variable",
+      "symmetry": "bilateral",
+      "landingPlatform": "specialized lip",
+      "nectarPlacement": "spur or hidden chamber (sometimes deception)",
+      "scentTiming": "species-specific; often day",
+      "rewardType": "nectar, oils, or none (deceptive)",
+      "uvGuides": "often elaborate on the lip"
+    },
+    "primaryGuilds": [
+      "solitary-bee"
+    ],
+    "secondaryGuilds": [
+      "honey-bumble"
+    ],
+    "fruitSet": "Many orchids package pollen as pollinia, so one correct visit can fertilize thousands of ovules\u2014or none if the wrong insect fails to pick up or deposit pollinia. Fruit set is often pollinator-limited rather than resource-limited.",
+    "examples": [
+      "many orchids",
+      "some legumes with keeled flowers"
+    ]
+  },
+  {
+    "id": "composite",
+    "name": "Composite head",
+    "simpleBlurb": "What looks like one flower is many florets on a shared disc, feeding bees and butterflies efficiently.",
+    "shapeSummary": "Capitulum of ray and/or disc florets sharing a flat or convex landing surface.",
+    "colorCues": [
+      "yellow",
+      "purple",
+      "white",
+      "orange"
+    ],
+    "traits": {
+      "corollaDepth": "short florets on a shared head",
+      "symmetry": "radial head",
+      "landingPlatform": "excellent",
+      "nectarPlacement": "in individual florets",
+      "scentTiming": "day",
+      "rewardType": "nectar and pollen",
+      "uvGuides": "common on disc and rays"
+    },
+    "primaryGuilds": [
+      "honey-bumble",
+      "solitary-bee",
+      "butterfly"
+    ],
+    "secondaryGuilds": [
+      "syrphid"
+    ],
+    "fruitSet": "Each floret can set an independent achene. Dense bee activity across the head raises seed set; sparse pollination leaves a hollow center of empty seeds even when the head looks intact.",
+    "examples": [
+      "sunflower",
+      "aster",
+      "coneflower",
+      "daisy"
+    ]
+  },
+  {
+    "id": "gullet",
+    "name": "Gullet / personate",
+    "simpleBlurb": "The mouth stays closed until a heavy bee pushes in, so light visitors rarely steal nectar without moving pollen.",
+    "shapeSummary": "Bilabiate flower with a closed throat that requires force to open.",
+    "colorCues": [
+      "purple",
+      "yellow",
+      "white",
+      "pink"
+    ],
+    "traits": {
+      "corollaDepth": "moderate",
+      "symmetry": "bilateral",
+      "landingPlatform": "lower lip",
+      "nectarPlacement": "behind closed throat",
+      "scentTiming": "day",
+      "rewardType": "nectar",
+      "uvGuides": "often on the palate"
+    },
+    "primaryGuilds": [
+      "honey-bumble",
+      "solitary-bee"
+    ],
+    "secondaryGuilds": [],
+    "fruitSet": "Only visitors strong enough to pry the gullet open contact anthers and stigma in sequence. Without those bees, flowers may be visited by thieves around the side and fruit set collapses.",
+    "examples": [
+      "snapdragon",
+      "turtlehead",
+      "some Pedicularis"
+    ]
+  },
+  {
+    "id": "bell",
+    "name": "Bell / campanulate",
+    "simpleBlurb": "A hanging or upright bell shelters nectar and often suits bees that can hang or crawl inside.",
+    "shapeSummary": "Campanulate corolla forming a protected chamber.",
+    "colorCues": [
+      "blue",
+      "purple",
+      "white",
+      "pink"
+    ],
+    "traits": {
+      "corollaDepth": "moderate",
+      "symmetry": "radial",
+      "landingPlatform": "rim or inner wall",
+      "nectarPlacement": "base of bell",
+      "scentTiming": "day",
+      "rewardType": "nectar",
+      "uvGuides": "variable"
+    },
+    "primaryGuilds": [
+      "honey-bumble",
+      "solitary-bee"
+    ],
+    "secondaryGuilds": [
+      "syrphid"
+    ],
+    "fruitSet": "Bumble bees that sonicate or crawl into bells move pollen effectively among plants. Cool springs that delay bee flight during peak bloom are a classic cause of poor fruit set in bell-flowered orchard relatives and ornamentals.",
+    "examples": [
+      "Campanula",
+      "blueberry (urn-adjacent)",
+      "some heathers"
+    ]
+  },
+  {
+    "id": "trap-carrion",
+    "name": "Trap / carrion cue",
+    "simpleBlurb": "Heat, odor, and a chamber lure flies that normally seek carrion; this is an educational extreme, not a garden default.",
+    "shapeSummary": "Chambered or pitfall-like flower with strong odor and often mottled color.",
+    "colorCues": [
+      "maroon",
+      "brown",
+      "mottled green"
+    ],
+    "traits": {
+      "corollaDepth": "chambered",
+      "symmetry": "radial chamber",
+      "landingPlatform": "slippery or inward-guiding",
+      "nectarPlacement": "often none or minimal",
+      "scentTiming": "day warmth peaks",
+      "rewardType": "deception (odor/heat)",
+      "uvGuides": "not the main cue"
+    },
+    "primaryGuilds": [
+      "carrion-fly"
+    ],
+    "secondaryGuilds": [],
+    "fruitSet": "Fruit set depends on temporarily trapping and releasing flies that carry pollen between plants. Without the right fly fauna, these specialists set little fruit despite dramatic blooms.",
+    "examples": [
+      "some Aristolochia",
+      "carrion flowers in Apocynaceae"
+    ]
+  },
+  {
+    "id": "wind",
+    "name": "Wind-pollinated",
+    "simpleBlurb": "Petals shrink or vanish; clouds of light pollen ride air currents instead of animal bodies.",
+    "shapeSummary": "Reduced perianth, dangling anthers, feathery stigmas, no showy nectar guides.",
+    "colorCues": [
+      "green",
+      "brown",
+      "inconspicuous"
+    ],
+    "traits": {
+      "corollaDepth": "absent or vestigial",
+      "symmetry": "not visually oriented",
+      "landingPlatform": "none",
+      "nectarPlacement": "none",
+      "scentTiming": "none for pollinators",
+      "rewardType": "none (pollen as male function)",
+      "uvGuides": "absent"
+    },
+    "primaryGuilds": [
+      "wind"
+    ],
+    "secondaryGuilds": [],
+    "fruitSet": "Fruit and seed set track weather and plant density more than insect flights. Still air, rain during pollen shed, or isolated plantings can leave ovaries unfertilized even though no pollinator was ever required.",
+    "examples": [
+      "grasses",
+      "oaks",
+      "many ragweeds"
+    ]
+  },
+  {
+    "id": "cleistogamous",
+    "name": "Closed / cleistogamous",
+    "simpleBlurb": "Some flowers never open and fertilize themselves, producing fruit without a pollinator visit.",
+    "shapeSummary": "Bud-like closed flowers that self-pollinate; often alongside showy open flowers on the same plant.",
+    "colorCues": [
+      "inconspicuous"
+    ],
+    "traits": {
+      "corollaDepth": "closed",
+      "symmetry": "not presented",
+      "landingPlatform": "none",
+      "nectarPlacement": "none",
+      "scentTiming": "none",
+      "rewardType": "none",
+      "uvGuides": "absent"
+    },
+    "primaryGuilds": [],
+    "secondaryGuilds": [],
+    "fruitSet": "Cleistogamous flowers guarantee some seed set without insects, which is insurance when pollinators are scarce. They do not replace outcrossing benefits of open flowers when genetic mixing matters for disease resistance or yield quality.",
+    "examples": [
+      "some violets",
+      "peanuts (geocarpy related)",
+      "some grasses"
+    ]
+  },
+  {
+    "id": "spurred",
+    "name": "Spurred",
+    "simpleBlurb": "A nectar spur filters visitors by tongue length, matching bees, butterflies, or moths to a precise fit.",
+    "shapeSummary": "Corolla with a hollow spur holding nectar beyond a short tongue\u2019s reach.",
+    "colorCues": [
+      "purple",
+      "pink",
+      "white",
+      "yellow"
+    ],
+    "traits": {
+      "corollaDepth": "spur depth is the filter",
+      "symmetry": "often bilateral",
+      "landingPlatform": "present for bees/butterflies",
+      "nectarPlacement": "tip of spur",
+      "scentTiming": "day or dusk",
+      "rewardType": "nectar",
+      "uvGuides": "toward spur entrance"
+    },
+    "primaryGuilds": [
+      "long-tongued-bee",
+      "butterfly",
+      "hawkmoth"
+    ],
+    "secondaryGuilds": [
+      "honey-bumble"
+    ],
+    "fruitSet": "Spur\u2013tongue matching raises legitimate pollen transfer. Nectar robbers that pierce the spur can leave flowers emptied and fruit set depressed even when visits look frequent.",
+    "examples": [
+      "columbine",
+      "larkspur",
+      "many violets with spurs",
+      "Darwin\u2019s orchid (extreme)"
+    ]
+  },
+  {
+    "id": "urn",
+    "name": "Urn / urceolate",
+    "simpleBlurb": "A constricted mouth on a swollen corolla favors bees that hang and buzz, classic in blueberries and kin.",
+    "shapeSummary": "Urn-shaped corolla with a narrow aperture and enclosed anthers.",
+    "colorCues": [
+      "white",
+      "pink",
+      "greenish"
+    ],
+    "traits": {
+      "corollaDepth": "moderate chamber",
+      "symmetry": "radial urn",
+      "landingPlatform": "hanging under flower",
+      "nectarPlacement": "inside urn",
+      "scentTiming": "day",
+      "rewardType": "nectar and pollen (often buzz-released)",
+      "uvGuides": "subtle"
+    },
+    "primaryGuilds": [
+      "solitary-bee",
+      "honey-bumble"
+    ],
+    "secondaryGuilds": [],
+    "fruitSet": "Buzz-pollinating bees shake pollen from poricidal anthers. Commercial blueberry fruit set rises when mason bees or bumble bees are active at bloom; honey bees alone are sometimes less effective on urn flowers.",
+    "examples": [
+      "blueberry",
+      "heather",
+      "some Erica"
+    ]
+  }
+]

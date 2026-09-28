@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply m-0 min-h-screen bg-cream text-ink font-sans antialiased;
+  }
+}
+
+@layer components {
+  .hub-masthead {
+    @apply border-b border-dusk/10 bg-dusk-ink text-cream;
+  }
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-pollen focus:px-3 focus:py-2 focus:text-dusk-ink focus:outline-none;
+  }
+  .mode-track {
+    @apply relative inline-flex rounded-full bg-leaf-mist p-1;
+  }
+  .flower-tile[aria-pressed="true"] {
+    @apply border-leaf bg-leaf-mist shadow-card ring-2 ring-leaf/30;
+  }
+  .guild-chip[aria-pressed="true"] {
+    @apply border-pollen bg-pollen/20 text-dusk-ink;
+  }
+}

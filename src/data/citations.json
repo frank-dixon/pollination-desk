@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fenster2004",
+    "text": "Fenster, C. B., Armbruster, W. S., Wilson, P., Dudash, M. R., & Thomson, J. D. (2004). Pollination syndromes and floral specialization. Annual Review of Ecology, Evolution, and Systematics, 35, 375\u2013403.",
+    "url": "https://doi.org/10.1146/annurev.ecolsys.34.011802.132347",
+    "use": "Modern framing of pollination syndromes and specialization."
+  },
+  {
+    "id": "faegri1979",
+    "text": "Faegri, K., & van der Pijl, L. (1979). The Principles of Pollination Ecology (3rd ed.). Pergamon Press.",
+    "url": "https://www.sciencedirect.com/book/9780080231570/the-principles-of-pollination-ecology",
+    "use": "Classic floral syndrome typology still taught as a starting map."
+  },
+  {
+    "id": "willmer2011",
+    "text": "Willmer, P. (2011). Pollination and Floral Ecology. Princeton University Press.",
+    "url": "https://press.princeton.edu/books/hardcover/9780691128610/pollination-and-floral-ecology",
+    "use": "Comprehensive synthesis of flower traits and pollinator sensory ecology."
+  },
+  {
+    "id": "knight2005",
+    "text": "Knight, T. M., et al. (2005). Pollen limitation of plant reproduction: Pattern and process. Annual Review of Ecology, Evolution, and Systematics, 36, 467\u2013497.",
+    "url": "https://doi.org/10.1146/annurev.ecolsys.36.102403.115320",
+    "use": "Evidence that fruit and seed set are often limited by pollination."
+  },
+  {
+    "id": "ashman2004",
+    "text": "Ashman, T.-L., et al. (2004). Pollen limitation of plant reproduction: Ecological and evolutionary causes and consequences. Ecology, 85(9), 2408\u20132421.",
+    "url": "https://doi.org/10.1890/03-8024",
+    "use": "Ecological causes of pollen limitation relevant to fruit set."
+  },
+  {
+    "id": "oosterhuis2012",
+    "text": "Garibaldi, L. A., et al. (2013). Wild pollinators enhance fruit set of crops regardless of honey bee abundance. Science, 339(6127), 1608\u20131611.",
+    "url": "https://doi.org/10.1126/science.1230200",
+    "use": "Crop fruit set benefits from diverse wild pollinators."
+  }
+]
