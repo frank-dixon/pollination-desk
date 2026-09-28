@@ -34,7 +34,7 @@ That one command watches Tailwind (`src/input.css` → `docs/css/pollination-des
 - Static PWA under `docs/` (manifest + service worker)
 - Hub masthead back to [frank-dixon.github.io](https://frank-dixon.github.io/)
 
-Built CSS and JS are committed so a future GitHub Pages publish would need no Node at runtime. **Pages is not enabled until Frank explicitly says deploy or ship.**
+Built CSS and JS are committed so GitHub Pages needs no Node at runtime. Live demo: **https://frank-dixon.github.io/pollination-desk/**. Portfolio micro-projects commit, push, and deploy Pages on update.
 
 ## Science note
 
