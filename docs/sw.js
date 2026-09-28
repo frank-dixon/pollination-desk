@@ -1,5 +1,5 @@
 /* Pollination Desk — offline shell cache */
-const CACHE = "pollination-desk-v1";
+const CACHE = "pollination-desk-v2";
 const ASSETS = [
   "./",
   "./index.html",

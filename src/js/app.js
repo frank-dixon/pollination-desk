@@ -104,10 +104,10 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className =
-        "flower-tile flex flex-col gap-1 rounded-2xl border border-dusk/10 bg-white px-4 py-3 text-left transition hover:border-leaf/40 hover:shadow-card focus:outline-none focus-visible:ring-2 focus-visible:ring-leaf";
+        "flower-tile flex flex-col gap-1 rounded-2xl border border-paper-line bg-white px-4 py-3 text-left transition hover:border-teal/40 hover:shadow-card focus:outline-none focus-visible:ring-2 focus-visible:ring-teal";
       btn.setAttribute("aria-pressed", String(flower.id === state.selectedFlowerId));
       btn.innerHTML =
-        '<span class="font-display text-lg text-dusk-ink">' +
+        '<span class="font-display text-lg text-ink">' +
         escapeHtml(flower.name) +
         '</span><span class="text-sm text-ink-muted line-clamp-2">' +
         escapeHtml(flower.simpleBlurb) +
@@ -131,7 +131,7 @@
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className =
-        "guild-chip rounded-full border border-dusk/15 bg-cream px-3 py-1.5 text-sm text-ink transition hover:border-pollen focus:outline-none focus-visible:ring-2 focus-visible:ring-pollen";
+        "guild-chip rounded-full border border-paper-line bg-cream px-3 py-1.5 text-sm text-ink transition hover:border-pollen focus:outline-none focus-visible:ring-2 focus-visible:ring-pollen";
       chip.setAttribute("aria-pressed", String(id === state.selectedGuildId));
       const score = matchScore(flower, guild);
       chip.textContent =
@@ -169,12 +169,12 @@
       els.matchScore.className =
         "inline-flex rounded-full px-2.5 py-0.5 text-xs font-semibold " +
         (score >= 3
-          ? "bg-leaf-mist text-leaf-dim"
+          ? "bg-teal-mist text-teal-dim"
           : score === 2
             ? "bg-pollen/25 text-pollen-dim"
             : score === 1
               ? "bg-cream-deep text-ink-muted"
-              : "bg-petal text-dusk-ink");
+              : "bg-petal text-ink");
       els.matchWhy.textContent = whyMatch(flower, guild, score);
       if (state.mode === "advanced") {
         els.traitCompare.hidden = false;
@@ -248,7 +248,7 @@
             '<dt class="text-xs font-semibold uppercase tracking-wide text-ink-faint">' +
             escapeHtml(row[0]) +
             "</dt>" +
-            '<dd class="mt-1 text-sm text-ink"><span class="font-medium text-leaf-dim">Flower:</span> ' +
+            '<dd class="mt-1 text-sm text-ink"><span class="font-medium text-teal-dim">Flower:</span> ' +
             escapeHtml(row[1]) +
             '</dd><dd class="text-sm text-ink"><span class="font-medium text-pollen-dim">Pollinator:</span> ' +
             escapeHtml(row[2]) +
@@ -269,7 +269,7 @@
       a.href = c.url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
-      a.className = "text-leaf underline decoration-leaf/30 underline-offset-2 hover:decoration-leaf";
+      a.className = "text-teal underline decoration-teal/30 underline-offset-2 hover:decoration-teal";
       a.textContent = c.text;
       li.appendChild(a);
       const use = document.createElement("p");

@@ -1,37 +1,48 @@
-/** Pollination Desk — warm botanical tokens */
+/** Pollination Desk — cream/paper light shell + turquoise accent */
 module.exports = {
   content: ["./docs/**/*.{html,js}", "./src/js/**/*.js"],
   theme: {
     extend: {
       colors: {
+        paper: {
+          DEFAULT: "#faf7f1",
+          warm: "#f3eee4",
+          line: "#e4ddd0",
+        },
         cream: {
-          DEFAULT: "#f7f1e6",
-          deep: "#ebe1d0",
-        },
-        pollen: {
-          DEFAULT: "#e0a83a",
-          soft: "#f0c96a",
-          dim: "#a67a22",
-        },
-        leaf: {
-          DEFAULT: "#2f6b4f",
-          bright: "#3f8a66",
-          dim: "#1e4634",
-          mist: "#d7e8dc",
-        },
-        dusk: {
-          DEFAULT: "#2a3358",
-          soft: "#3d4a7a",
-          ink: "#161b2e",
-        },
-        petal: {
-          DEFAULT: "#f3d5c8",
-          rose: "#d9899b",
+          DEFAULT: "#faf7f1",
+          deep: "#f0ebe1",
         },
         ink: {
-          DEFAULT: "#1c241c",
-          muted: "#5a645a",
-          faint: "#8a948a",
+          DEFAULT: "#2a322c",
+          muted: "#5c665f",
+          faint: "#8a928b",
+        },
+        teal: {
+          DEFAULT: "#0B8A8F",
+          soft: "#12a3a8",
+          mist: "#d8f1f2",
+          dim: "#086f73",
+        },
+        pollen: {
+          DEFAULT: "#d4a017",
+          soft: "#e8c04a",
+          dim: "#9a7512",
+        },
+        leaf: {
+          DEFAULT: "#0B8A8F",
+          bright: "#12a3a8",
+          dim: "#086f73",
+          mist: "#d8f1f2",
+        },
+        petal: {
+          DEFAULT: "#f5e6dc",
+          rose: "#d9899b",
+        },
+        dusk: {
+          DEFAULT: "#5c665f",
+          soft: "#8a928b",
+          ink: "#2a322c",
         },
       },
       fontFamily: {
@@ -39,8 +50,8 @@ module.exports = {
         display: ['"Fraunces"', "Georgia", "serif"],
       },
       boxShadow: {
-        card: "0 12px 40px rgba(22, 27, 46, 0.08)",
-        lift: "0 18px 50px rgba(22, 27, 46, 0.12)",
+        card: "0 10px 30px rgba(42, 50, 44, 0.06)",
+        lift: "0 16px 40px rgba(42, 50, 44, 0.09)",
       },
     },
   },
