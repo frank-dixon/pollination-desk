@@ -46,8 +46,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['"Source Sans 3"', "system-ui", "sans-serif"],
-        display: ['"Fraunces"', "Georgia", "serif"],
+        sans: ['"IBM Plex Sans"', 'system-ui', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+        display: ['Michroma', '"IBM Plex Sans"', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         card: "0 10px 30px rgba(42, 50, 44, 0.06)",

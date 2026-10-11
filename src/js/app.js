@@ -107,7 +107,7 @@
         "flower-tile flex flex-col gap-1 rounded-2xl border border-paper-line bg-white px-4 py-3 text-left transition hover:border-teal/40 hover:shadow-card focus:outline-none focus-visible:ring-2 focus-visible:ring-teal";
       btn.setAttribute("aria-pressed", String(flower.id === state.selectedFlowerId));
       btn.innerHTML =
-        '<span class="font-display text-lg text-ink">' +
+        '<span class="font-display text-base text-ink font-normal">' +
         escapeHtml(flower.name) +
         '</span><span class="text-sm text-ink-muted line-clamp-2">' +
         escapeHtml(flower.simpleBlurb) +

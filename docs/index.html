@@ -13,16 +13,16 @@
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./css/pollination-desk.css" />
   <title>Pollination Desk</title>
 </head>
 <body class="bg-cream text-ink">
   <a class="skip-link" href="#main">Skip to desk</a>
 
-  <header class="hub-masthead">
+  <header class="hub-masthead hs-lattice">
     <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-      <a class="font-display text-lg tracking-tight text-ink hover:text-teal" href="https://frank-dixon.github.io/">Frank Dixon<span class="text-teal">.</span></a>
+      <a class="hs-backlink text-ink-muted hover:text-ink" href="https://frank-dixon.github.io/"><span aria-hidden="true">←</span> Frank Dixon</a>
       <nav aria-label="Frank Dixon site">
         <ul class="flex flex-wrap gap-4 text-sm text-ink-muted">
           <li><a class="hover:text-teal" href="https://frank-dixon.github.io/#about">About</a></li>
@@ -32,13 +32,14 @@
         </ul>
       </nav>
     </div>
+    <div class="hs-rule" aria-hidden="true"></div>
   </header>
 
   <header class="border-b border-paper-line bg-gradient-to-br from-paper via-petal/50 to-teal-mist/60">
     <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 md:flex-row md:items-end md:justify-between">
       <div class="max-w-2xl">
         <p class="text-xs font-semibold uppercase tracking-[0.22em] text-teal">Field desk</p>
-        <h1 class="mt-2 font-display text-4xl font-medium tracking-tight text-ink md:text-5xl">Pollination Desk</h1>
+        <h1 class="mt-2 font-display text-3xl font-normal tracking-[0.02em] text-ink md:text-4xl">Pollination Desk</h1>
         <p class="mt-3 text-lg leading-relaxed text-ink-muted">
           Match flower shape to pollinator guild, then follow the line to fruit set. This desk bridges toward Cambium’s coming fruit-tree modes without rebuilding tree physiology here.
         </p>
@@ -54,7 +55,7 @@
     <section aria-labelledby="shapes-heading" class="space-y-4">
       <div class="flex items-end justify-between gap-3">
         <div>
-          <h2 id="shapes-heading" class="font-display text-2xl text-ink">Flower shapes</h2>
+          <h2 id="shapes-heading" class="font-display text-xl text-ink font-normal">Flower shapes</h2>
           <p id="simple-hint" class="mt-1 text-sm text-ink-muted">Pick a shape to see its primary pollinator partners and what that means for fruit.</p>
           <p id="advanced-hint" class="mt-1 text-sm text-ink-muted" hidden>Compare morphological filters against guild traits. Scores are educational heuristics, not field census data.</p>
         </div>
@@ -65,14 +66,14 @@
 
     <section class="space-y-6" aria-live="polite">
       <div id="empty-detail" class="rounded-3xl border border-dashed border-paper-line bg-white/70 p-8 text-ink-muted">
-        <p class="font-display text-xl text-ink">Choose a flower shape</p>
+        <p class="font-display text-lg text-ink font-normal">Choose a flower shape</p>
         <p class="mt-2 text-sm leading-relaxed">The desk will show matching pollinators, why the fit works, and how missed matches cut fruit set.</p>
       </div>
 
       <article id="detail" class="space-y-5" hidden>
         <div class="rounded-3xl border border-paper-line bg-white p-6 shadow-card">
           <p class="text-xs font-semibold uppercase tracking-[0.18em] text-pollen-dim">Selected shape</p>
-          <h2 id="detail-title" class="mt-1 font-display text-3xl text-ink"></h2>
+          <h2 id="detail-title" class="mt-1 font-display text-2xl text-ink font-normal"></h2>
           <p id="detail-blurb" class="mt-3 text-base leading-relaxed text-ink-muted"></p>
           <p id="detail-shape" class="mt-2 text-sm leading-relaxed text-ink"></p>
           <dl class="mt-4 grid gap-3 sm:grid-cols-2 text-sm">
@@ -88,13 +89,13 @@
         </div>
 
         <div>
-          <h3 class="font-display text-xl text-ink">Pollinator guilds</h3>
+          <h3 class="font-display text-lg text-ink font-normal">Pollinator guilds</h3>
           <div id="guild-chips" class="mt-3 flex flex-wrap gap-2"></div>
         </div>
 
         <div id="match-card" class="rounded-3xl border border-leaf/20 bg-leaf-mist/40 p-6">
           <div class="flex flex-wrap items-center gap-3">
-            <h3 id="match-title" class="font-display text-2xl text-ink"></h3>
+            <h3 id="match-title" class="font-display text-xl text-ink font-normal"></h3>
             <span id="match-score"></span>
           </div>
           <p id="match-why" class="mt-3 text-base leading-relaxed text-ink"></p>
@@ -105,7 +106,7 @@
 
         <div class="rounded-3xl border border-pollen/30 bg-gradient-to-br from-pollen/15 to-cream p-6">
           <p class="text-xs font-semibold uppercase tracking-[0.18em] text-pollen-dim">Fruit-set link</p>
-          <h3 class="mt-1 font-display text-2xl text-ink">From visit to fruit</h3>
+          <h3 class="mt-1 font-display text-xl text-ink font-normal">From visit to fruit</h3>
           <p id="fruit-set-copy" class="mt-3 text-base leading-relaxed text-ink"></p>
           <p class="mt-4 rounded-2xl bg-white/80 p-4 text-sm leading-relaxed text-ink-muted">
             Cambium (coming) covers how each fruit tree species turns successful pollination into fruit—sap and phenology on that desk, floral matching on this one.
@@ -117,7 +118,7 @@
 
   <section class="border-t border-paper-line bg-white" aria-labelledby="cite-heading">
     <div class="mx-auto max-w-6xl px-4 py-10">
-      <h2 id="cite-heading" class="font-display text-2xl text-ink">Cited science</h2>
+      <h2 id="cite-heading" class="font-display text-xl text-ink font-normal">Cited science</h2>
       <p class="mt-2 max-w-3xl text-sm leading-relaxed text-ink-muted">
         Floral syndromes are useful maps, not rigid laws. Real communities mix generalists, thieves, and weather. These sources anchor the desk’s wording.
       </p>
